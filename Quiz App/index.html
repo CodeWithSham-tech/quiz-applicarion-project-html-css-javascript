@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/fontawesome/js/all.min.js">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <span id="currentQ"></span>
+            <span id="totalQuestions"></span>
+            <h1 id="Qtime"></h1>
+            <h2>Quiz App</h2>
+        </div>
+        <div class="quiz">
+            <h2 id="qns"></h2>
+        </div>
+        <div>
+            <input type="radio" id="ans1" class="options" name="option">
+            <label id="opt1"></label>
+        </div>
+        <div>
+            <input type="radio" id="ans2" class="options" name="option">
+            <label id="opt2"></label>
+        </div>
+        <div>
+            <input type="radio" id="ans3" class="options" name="option">
+            <label id="opt3"></label>
+        </div>
+        <div>
+            <input type="radio" id="ans4" class="options" name="option">
+            <label id="opt4"></label>
+        </div>
+        <div class="btn">
+            <h2 class="myScore"></h2>
+            <button onclick="next()" id="next">Next</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    background-color: white;
+    width: 500px;
+    height: 100%;
+    margin: auto;
+}
+.head{
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    
+}button{
+    background-color: blue;
+    color: white;
+    font-size: 32px;
+}.myScore{
+    background-color: aqua;
+}
